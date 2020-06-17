@@ -1,4 +1,5 @@
 import React from 'react'
+import ClubSuggest from '../ClubSuggest'
 import {
   PageContainer,
   PageTitle
@@ -8,6 +9,7 @@ const GolfCaddy = () => {
   return (
     <PageContainer>
       <PageTitle>iCaddie</PageTitle>
+      <ClubSuggest />
     </PageContainer>
   )
 }
