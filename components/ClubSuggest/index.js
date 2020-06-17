@@ -10,7 +10,7 @@ const ClubSuggest = () => {
   return (
     <DistanceContainer>
       <DistanceInputContainer>
-        <DistanceLabel>Distance: </DistanceLabel>
+        <DistanceLabel>Distance:</DistanceLabel>
         <DistanceInput placeholder='Enter Distance' keyboardType='numeric'/>
       </DistanceInputContainer>
     </DistanceContainer>
